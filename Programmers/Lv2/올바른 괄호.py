@@ -12,4 +12,4 @@ def solution(s):
             else:
                 stack.pop()  # '('가 ')'와 짝을 이루면 stack에서 '(' 하나 제거
     
-    return True if stack==[] else False
+    return stack==[]
